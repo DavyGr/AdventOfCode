@@ -6,8 +6,8 @@ Find the maximum number of calories one Elf is carrying
 # import numpy as np
 from pathlib import Path
 
-FILENAME: Path = Path("01.txt")
-PATH: Path = Path("2022/inputs/")
+FILENAME = Path("01.txt")
+PATH = Path("2022/inputs/")
 
 
 def main():
