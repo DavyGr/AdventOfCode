@@ -10,7 +10,7 @@ FILENAME = Path("01.txt")
 PATH = Path("2022/inputs/")
 
 
-def main():
+def find_maximum_calories():
     """Find the maximum number of calories elves are carrying"""
     elves = np.array([])
     sum_elf = 0
@@ -37,6 +37,9 @@ def main():
     elves_sorted = np.sort(elves)[::-1]
 
     print("Maximum of top 3 elves:", np.sum(elves_sorted[:top_n]))
+
+def main():
+    find_maximum_calories()
 
 if __name__=="__main__":
     main()
